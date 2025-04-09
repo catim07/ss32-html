@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eggplant</title>
+    <script src="https://kit.fontawesome.com/7b988689d5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div style="display: flex; flex-direction: column; gap: 20px; background-color: rgb(223, 220, 220); align-items: center;">
+        <h1 style="font-size: 60px;">To-Do List K24_PTIT</h1>
+        <div style="background-color: white; border-radius: 10px; width: 70%; display: flex; align-items: center; flex-direction: column;">
+            <form style="display: flex; margin-top: 40px; gap: 15px;" onsubmit="thêm(event)">
+                <input id="nhiệm" type="text" style="font-size: 60px; border-radius: 10px;" placeholder="Nhập nhiệm vụ...">
+                <button style="font-size: 35px; color: white; background-color: rgb(39, 179, 39); border: none; border-radius: 10px;">Thêm</button>
+            </form>
+            <ul style="margin-top: 50px; font-size: 50px;" id="danh">
+                <!-- <div style="width: 900px; display: flex; justify-content: space-between;">
+                    <div><li style="list-style-type: none;">a</li></div>
+                    <button onclick="xóa(${i})" style="font-size: 50px; background-color: red; color: white; border: none; border-radius: 10px; width: 80px; height: 80px;"><i class="fa-solid fa-xmark"></i></button>
+                </div>
+                <hr> -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
